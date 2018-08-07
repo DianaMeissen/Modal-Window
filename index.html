@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Masorny with</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <style type="text/css">
+	    	.just__text {
+			    margin-top: 50px;
+			    margin-left: 300px;
+			    z-index: 2;
+			}
+
+			.image__in__p {
+				position: relative;
+			    margin-top: -100px;
+			    z-index: 1;
+			}
+	    </style>
+	</head>
+	<body>
+		<h1>Modal window Test</h1>
+            <div class="modal">
+                <a href="#openModal">Just click</a>
+            </div>	
+		<div id="openModal" class="modalDialog">
+			<a href="#close" title="Close this annoying window" class="close">X</a>
+			<h2>Huraaaaaa you click it!!!!</h2>	
+			<p class="just__text">Congratulations</p>	
+			<p class="image__in__p"><img src="Mem.jpg" alt="You good in it"></p>
+		</div>
+	</body>
+</html>
